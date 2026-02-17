@@ -165,3 +165,20 @@ nav { display: none; }
   background: var(--clr-light);
   opacity: .5;
 }
+
+.foundation {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+@media (min-width: 800px) {
+  .foundations {
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  .foundation + .foundation{
+    margin-left: 2em;
+  }
+}
