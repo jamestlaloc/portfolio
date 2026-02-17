@@ -101,3 +101,25 @@ nav { display: none; }
 .hero {
   position: relative;
 }
+
+@media (min-width: 600px) {
+  .hero {
+    display: grid;
+    width: min-content;
+    margin: 0 auto;
+    column-gap: 1em;
+    grid-template-areas:
+      "img title"
+      "img subtitle";
+    grid-template-columns: min-content max-content;
+  }
+
+  .hero__img {
+    grid-area: img;
+    min-width: 250px;
+  }
+
+  .section__subtitle--hero {
+    align-self: start;
+  }
+}
