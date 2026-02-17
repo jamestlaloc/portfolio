@@ -4,16 +4,29 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>jamestlaloc</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0.min.css">
-    <link rel="stysheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.2/css/all.css" integrity="sha-256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous"
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0.min.css"
+    />
+    <link
+      rel="stysheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.2/css/all.css"
+      integrity="sha-256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc="
+      crossorigin="anonymous"
+    />
   </head>
   <body>
-    <header class="header">
-      <div class="logo"><strong>jamestlaloc.dev</strong></div>
+    <header>
+      <div class="logo">
+        <strong>jamestlaloc.dev</strong>
+      </div>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
       <nav class="nav">
         <ul class="nav__list">
           <li class="nav__item">
-            <a href="#about" class="nav__link">About</a>
+            <a href="#home" class="nav__link">Home</a>
           </li>
           <li class="nav__item">
             <a href="#projects" class="nav__link">Projects</a>
@@ -27,8 +40,48 @@
         </ul>
       </nav>
     </header>
-    <section class="hero"></section>
+
+    <!-- Hero -->
+    <section class="hero" id="home">
+      <h1 class="section__title section__title--intro">
+        Hi, I am <strong>James Tlaloc</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">full-stack dev</p>
+      <img
+        src="./assets/images/IMG_2791.jpg"
+        alt="a picture of James Tlaloc looking right at the camera"
+      />
+    </section>
+
+    <!-- My Services -->
+    <section class="my-services" id="services">
+      <h2 class="section__title section__title--services">What I do</h2>
+      <div class="services">
+        <div class="service">
+          <h3></h3>
+          <p></p>
+        </div>
+        <!-- / service -->
+        <div class="service">
+          <h3></h3>
+          <p></p>
+        </div>
+        <!-- / service -->
+        <div class="service">
+          <h3></h3>
+          <p></p>
+        </div>
+        <!-- / service -->
+      </div>
+      <!-- /services -->
+
+      <a href="work" class="btn">My Work</a>
+    </section>
+
+    <!-- About Me -->
     <section class="about"></section>
+
+    <!-- Projects -->
     <section class="projects"></section>
     <section class="skills"></section>
     <section class="contact"></section>
