@@ -1,9 +1,11 @@
+/* Sets the project to use border-box sizing instead of default content-box */
 *,
 *::before,
 *::after {
   box-sizing: border-box;
 }
 
+/* Custom Property Variables */
 :root {
   --ff-primary: 'Source Sans Pro', sans-serif;
   --ff-secondary: 'Source Code Pro', monospace;
@@ -28,4 +30,15 @@
   --fs-h3: 1.5rem;
   --fs-body: 1.125rem;
   }
+}
+
+/* General Styles */
+
+body {
+  background: var(--clr-light);
+  color: var(--clr-dark);
+  margin: 0;
+  font-family: var(--ff-primary);
+  font-size: var(--fs-body);
+  line-height: 1.6;
 }
