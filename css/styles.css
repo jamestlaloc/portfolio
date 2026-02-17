@@ -88,6 +88,7 @@ h3 { font-size: var(--fs-h3); }
 .section__subtitle--hero,
 .section__subtitle--about {
   background: var(--clr-accent);
+  padding: .25em 1em;
   font-family: var(--ff-secondary);
   margin-bottom: 1em;
 }
