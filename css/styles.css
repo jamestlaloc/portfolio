@@ -119,6 +119,7 @@ nav { display: none; }
     grid-area: img;
     min-width: 250px;
     position: relative;
+    z-index: 2;
   }
 
   .section__subtitle--hero {
