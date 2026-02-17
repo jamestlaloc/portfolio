@@ -118,6 +118,7 @@ nav { display: none; }
   .hero__img {
     grid-area: img;
     min-width: 250px;
+    position: relative;
   }
 
   .section__subtitle--hero {
