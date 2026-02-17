@@ -89,6 +89,7 @@ h3 { font-size: var(--fs-h3); }
 .section__subtitle--about {
   background: var(--clr-accent);
   font-family: var(--ff-secondary);
+  margin-bottom: 1em;
 }
 
 /* Header */
@@ -97,4 +98,6 @@ nav { display: none; }
 
 /* Intro Section */
 
-.intro
+.hero {
+  position: relative;
+}
