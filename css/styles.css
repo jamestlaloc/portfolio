@@ -188,6 +188,10 @@ header {
   z-index: 1000;
 }
 
+.nav-open .nav{
+  transform: translateX(0);
+}
+
 .hamburger {
   display: block;
   position: relative;
@@ -398,6 +402,7 @@ header {
 
 .footer__link {
   font-size: 2.5rem;
+  max-width: fit-content;
 }
 
 .footer__link:hover,
