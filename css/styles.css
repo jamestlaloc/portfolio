@@ -128,6 +128,10 @@ h3 { font-size: var(--fs-h3); }
   margin-bottom: 2em;
 }
 
+.section__title--footer {
+  font-size: var(--fs-h2);
+}
+
 /* Header */
 
 header {
@@ -393,7 +397,7 @@ header {
   color: var(--clr-accent);
   text-align: center;
   padding: 2em 0;
-  margin: 0 auto;
+  font-size: var(--fs-h3)
 }
 
 .footer a { 
@@ -402,7 +406,7 @@ header {
 }
 
 .footer__link {
-  font-size: 2.5rem;
+  
 }
 
 .footer__link:hover,
