@@ -426,7 +426,7 @@ header {
 }
 
 .footer__link {
-  
+ 
 }
 
 .footer__link:hover,
@@ -452,5 +452,5 @@ header {
 
 .social-list__link {
   padding: .5em;
-  font-size: 3rem;
+  font-size: 2rem;
 }
